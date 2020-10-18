@@ -1,81 +1,258 @@
-<html>
-<head>
-  <meta name="google-site-verification" content="fhZmVCDnawrZG9kg2V021JhAMIPAzTMD8rPqjMkKfGc" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157938886-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <style>
-    /* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body, html {
-  height: 100%
-}
+      gtag('config', 'UA-157938886-1');
+    </script>
 
-.bgimg {
-  /* Background image */
-  background-image: url('images/cover.jpg');
-  /* Full-screen */
-  height: 100%;
-  /* Center the background image */
-  background-position: center;
-  /* Scale and zoom in the image */
-  background-size: cover;
-  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-  position: relative;
-  /* Add a white text color to all elements inside the .bgimg container */
-  color: white;
-  /* Add a font */
-  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
-  /* Set the font-size to 25 pixels */
-  font-size: 25px;
-  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
-}
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
 
-/* Position text in the top-left corner */
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-a {
-  color: white;
-}
-a:hover {
-  color: orange;
-}
-/* Position text in the bottom-left corner */
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+<!--     <link rel="stylesheet" href="css/aos.css"> -->
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-/* Style the <hr> element */
-hr {
-  margin: auto;
-  width: 40%;
-}
-  </style>
-</head>
-<body>
-  <div class="bgimg">
-  <div class="topleft">
+    <!-- Primary Meta Tags -->
+    <title>Portland Drone Racing - Portland Oregon Drone Racing Club</title>
+    <meta name="google-site-verification" content="fhZmVCDnawrZG9kg2V021JhAMIPAzTMD8rPqjMkKfGc" />
 
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <h2>Our new site is under construction. In the meantime, <a href="https://discord.gg/nqPXDHB">please join us on Discord</a> or <a href="https://portlanddroneracing.square.site/">register for a membership or a race</a>.</h2>
-  </div>
-  <div class="bottomleft">
+    <meta name="title" content="Portland Drone Racing - Portland Oregon Drone Racing Club">
+    <meta name="description" content="We race custom-built drone quadcopters at speeds of over 100 miles an hour. Join us.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  </div>
-</div>
-</body>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://portlanddroneracing.com/">
+    <meta property="og:title" content="Portland Drone Racing - Portland Oregon Drone Racing Club">
+    <meta property="og:description" content="We race custom-built drone quadcopters at speeds of over 100 miles an hour. Join us.">
+    <meta property="og:image" content="http://portlanddroneracing.com/images/square-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://portlanddroneracing.com/">
+    <meta property="twitter:title" content="Portland Drone Racing - Portland Oregon Drone Racing Club">
+    <meta property="twitter:description" content="We race custom-built drone quadcopters at speeds of over 100 miles an hour. Join us.">
+    <meta property="twitter:image" content="http://portlanddroneracing.com/images/square-logo.png">
+
+    <!-- structured data logo -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://portlanddroneracing.com",
+      "logo": "http://portlanddroneracing.com/images/pdr.png"
+    }
+    </script>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+
+            <div class="site-logo">
+              <a href="index.html">
+                <!-- <img src="images/pdr.png" alt="PDR" /> -->
+                Portland Drone Racing
+              </a>
+            </div>
+
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li><a href="#home-section" class="nav-link">Home</a></li>
+                  <li><a href="#events-section" class="nav-link">Upcoming Events</a></li>
+                  <li><a href="#about-section" class="nav-link">About Us</a></li>
+                  <li><a href="#attend-section" class="nav-link">Attend a Race</a></li>
+                  <li><a href="#flywithus-section" class="nav-link">Fly With Us</a></li>
+                  <li><a href="#community-section" class="nav-link">Community</a></li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+        </div>
+
+      </header>
+
+      <div class="ftco-blocks-cover-1">
+        <div class="ftco-cover-1 overlay" style="background-image: url('images/cover.jpg')">
+          <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+              <div class="col-lg-12">
+                <h1>Drone Racing Club in Portland, Oregon</h1>
+                <p class="mb-5">We race custom-built quadcopter drones at speeds of over 100 miles an hour. Join us.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END .ftco-cover-1 -->
+
+        <div class="site-section" id="events-section">
+          <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+              <div class="col-md-8 text-center">
+                <h2>Upcoming Events</h2>
+
+                <p class="mb-3">
+                  This calendar shows our upcoming races and other major events.
+                  Practice sessions are informal and usually arranged via our <a href="#community-section">Discord community</a>.</p>
+                <p class="mb-5">
+                  Pilot registration for races is handled via our <a href="https://portlanddroneracing.square.site" target="_blank">Square store</a>.
+                <div class="embed-responsive embed-responsive-16by9 calendar-iframe">
+                  <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=NXBpdHNodm0xMXBoczg2MTk0ZWZkZG1wYWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239D7000&amp;mode=AGENDA&amp;showNav=1&amp;showTitle=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" class="embed-responsive-item" frameborder="0" scrolling="no"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="site-section bg-darkblue" id="about-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-8 text-center">
+              <h2>About Us</h2>
+              <p>PDR is a group dedicated to flying radio controlled FPV (first person view) aircraft. We are based in Portland, Oregon, but our events draw pilots from all over the Pacific Northwest. We build, race, and inevitably crash our own custom-built high-performance drones, wearing VR-like goggles that allow us to see from the aircraft's perspective, giving us the feel of being "in the cockpit". Our races are <a href="#attend-section">completely free to attend</a> and we offer <a href="#flywithus-section">help &amp; support for new pilots</a>. Our primary outdoor racing season is March through October of each year, with special indoor races scheduled in the winter whenever possible.</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <img class="mx-auto" src="images/flightline.jpg" width="100%" alt="Flight line at a recent PDR event" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="site-section" id="attend-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <h2>Attend a race - free!</h2>
+              <p>If you're interested in FPV racing, attending an official race is a great way to see for yourself what it's all about. <strong>Spectators are always free!</strong> Check out our <a href="#events-section">Upcoming Events</a> for the next official race.</p>
+              <p class="mb-5">Most of our outdoor races are held at our official home field. Check the <a href="#events-section">Calendar</a>, as location information will be published about a week before race day.
+
+              <h3>Tips for attending your first race</h3>
+              <ol class="text-left">
+                <li>First and foremost - <strong>yes, come watch a race!</strong> We love to show off what we do to newcomers, answer questions, and introduce new people to racing.</li>
+                <li>It's never a bad idea to stop by our <a href="#community-section">Discord community</a> and let us know you're planning on coming. Sometimes races get rescheduled or cancelled due to weather.</li>
+                <li>Our home field is just that - a field. Bring your own shade, a picnic blanket or lawn chair, and snacks, and dress for the weather. Also, there are no bathrooms on-site.</li>
+                <li>Kids are absolutely welcome.</li>
+                <li>Once you arrive onsite, feel free to come up and introduce yourself to the pilots, check out people's gear, and ask questions. <strong>The main safety rule is to stay well clear of the course when there are drones in the air.</strong> We will guide you through the rest of the rules and best practices when you are here.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <img class="mx-auto" src="images/launch.jpg" width="100%" alt="Quadcopters launching" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section bg-darkblue" id="flywithus-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-7 text-center">
+             <h2>Fly With Us</h2>
+               <p class="mb-3"><strong>We're always welcoming new pilots!</strong></p> The FPV hobby is growing quickly, and we welcome beginner pilots. We can help guide you towards the right equipment you will need to start flying and racing at a wide range of different budgets, and can teach you how to safely build, maintain and fly your new drone. Stop by our <a href="#community-section">Discord community</a> or <a href="#attend-section">come to a race</a> and ask questions!</p>
+               <p>Membership in PDR is currently $60/year and includes usage of our home field in Beaverton and free registration for all of our regular monthly outdoor races. Your first race is also free!</p>
+               <p>If you are interested in becoming a member of our club, any one of the club officers will be more than happy to walk you through our painless application process. Join our <a href="#community-section">Discord community.</a> and ask for an officer, or just introduce yourself to us at an event and we will gladly get you pointed in the right direction.</p>
+               <p class="mb-5"> Pilot registration for races and memberships are handled via our <a href="https://portlanddroneracing.square.site" target="_blank">Square store</a>.
+
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <img class="mx-auto" src="images/pilots.jpg" width="100%" alt="Pilots setting up their quadcopters" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section bg-darkblue" id="community-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center text-center">
+            <div class="col-md-7">
+              <h2>Community</h2>
+              <p class="mb-3">We're a social bunch and love nothing more than talking about building and flying quadcopters all day long. Here's how to connect with us:</p>
+              <p class="mb-3">Our <strong><a href="http://discord.portlanddroneracing.com/" target="_blank">Discord community</a></strong> is our primary gathering place. Discord is a free text-chat application with web, desktop, and mobile apps. You can join our community via <a href="http://discord.portlanddroneracing.com/" target="_blank">this link</a>. Come say hello!</p>
+              <p class="mb-3">You can also <strong><a href="https://www.facebook.com/Portland-Drone-Racing-112517303939875/">follow our official Facebook page</a></strong> for updates and news, and there's a <strong><a href="https://www.facebook.com/groups/portlanddroneracing/" target="_blank">Facebook group</a></strong> where you can post questions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4">
+            <!-- <img src="/images/pdr_text_white.png" class="mb-3" alt="PDR" /> -->
+            <p />
+            <a href="https://www.facebook.com/Portland-Drone-Racing-112517303939875/" class="pl-0 pr-3" target="_blank"><span class="icon-facebook"></span></a>
+            <a href="http://discord.portlanddroneracing.com/" class="pl-3 pr-3" target="_blank"><span class="icon-discord"></span></a>
+<!--             <a href="https://instagram.com//" class="pl-3 pr-3" target="_blank"><span class="icon-instagram"></span></a>
+ -->          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-3">
+              <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Portland Drone Racing. All rights reserved.</p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <p class="copyright"> This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>.</p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+<!--     <script src="js/aos.js"></script> -->
+    <script src="js/main.js"></script>
+
+
+  </body>
+
 </html>
